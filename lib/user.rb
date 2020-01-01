@@ -2,7 +2,9 @@
 
 class User 
   
-  def initialize
+  def initialize(first_name)
+    @first_name = first_name
+  end
   
   
 end
